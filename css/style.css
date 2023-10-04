@@ -3508,6 +3508,7 @@ h6 {
 }
 
 .banner_btn:hover {
+  background-color: #84827c; 
   color: #fff;
 }
 
