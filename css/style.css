@@ -3453,7 +3453,7 @@ h6 {
   font-size: 13px;
   font-weight: 500;
   line-height: 50px;
-  border: 1px solid #2b2b2b;
+  border: 1px solid #797878;
   border-radius: 5px;
   outline: none !important;
   box-shadow: none !important;
@@ -3463,7 +3463,7 @@ h6 {
 }
 
 .submit_btn:hover {
-  background: #2b2b2b;
+  background: #797878;
   color: #fff;
 }
 
