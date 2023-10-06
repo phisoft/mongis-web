@@ -91,8 +91,8 @@ button:focus {
 }
 
 .p_160 {
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .pad_top {
@@ -3608,6 +3608,7 @@ h6 {
 ============================================================================================ */
 .furniture_area {
   background: #f9f9ff;
+  
 }
 
 .furniture_inner {
