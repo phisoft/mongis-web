@@ -428,6 +428,7 @@ button:focus {
   z-index: 1;
   background: url(../img/banner/home-banner@.jpg) no-repeat scroll center center;
   background-size: cover;
+  
 }
 
 .home_banner_area .banner_inner {
@@ -437,11 +438,14 @@ button:focus {
 .home_banner_area .banner_inner .col-lg-8 {
   vertical-align: middle;
   align-self: center;
+  margin-top: 250px;
 }
 
 .home_banner_area .banner_inner .banner_content {
   text-align: left;
   color: #fff;
+
+  margin-bottom: 50px;
 }
 
 .home_banner_area .banner_inner .banner_content h2 {
@@ -467,6 +471,7 @@ button:focus {
 
 .home_banner_area .banner_inner .banner_content .banner_btn {
   margin-right: 0px;
+
 }
 
 .home_banner_area .home_right_box {
