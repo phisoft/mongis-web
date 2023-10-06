@@ -438,14 +438,13 @@ button:focus {
 .home_banner_area .banner_inner .col-lg-8 {
   vertical-align: middle;
   align-self: center;
-  margin-top: 250px;
+  margin-top: 280px;
 }
 
 .home_banner_area .banner_inner .banner_content {
   text-align: left;
   color: #fff;
-
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .home_banner_area .banner_inner .banner_content h2 {
@@ -652,7 +651,7 @@ button:focus {
 /* Home Our Blog Area css
 ============================================================================================ */
 .o_blog_item .blog_text {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .o_blog_item .blog_text .blog_cat {
