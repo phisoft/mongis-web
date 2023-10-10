@@ -3811,32 +3811,31 @@ h6 {
   line-height: 1.5;
 }
 
-/*** Section Title ***/
-.section-title h1 {
+.section-work h1 {
   position: relative;
   display: inline-block;
   padding: 0 60px;
 }
 
-.section-title.text-start h1 {
+.section-work.text-start h1 {
   padding-left: 0;
 }
 
-.section-title h1::before,
+.section-work h1::before,
 
 
-.section-title h1::before {
+.section-work h1::before {
   left: 0;
 }
 
-.section-title h1::after {
+.section-work h1::after {
   right: 0;
 }
 
-.section-title.text-start h1::before {
+.section-work.text-start h1::before {
   display: none;
 }
-.section-title h1::after {
+.section-work h1::after {
   position: absolute;
   content: "";
   width: 45px;
