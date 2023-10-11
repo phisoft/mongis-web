@@ -594,7 +594,7 @@ button:focus {
 }
 
 .banner_area .banner_inner .overlay {
-  background: url(../img/banner/banner.jpg) no-repeat scroll center center;
+  background: url(../img/banner/construction-workers-sunset.jpg) no-repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
@@ -3811,7 +3811,7 @@ h6 {
   line-height: 1.5;
 }
 
-.section-work h1 {
+/* .section-work h1 {
   position: relative;
   display: inline-block;
   padding: 0 60px;
@@ -3842,7 +3842,7 @@ h6 {
   height: 5px;
   bottom: 0;
   background: var(--dark);
-}
+} */
 
 /*** work ***/
 @media (min-width: 992px) {
