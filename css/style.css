@@ -426,7 +426,7 @@ button:focus {
 }
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner@.jpg) no-repeat scroll center center;
+  background: url(../img/banner/civil-black.jpg) no-repeat scroll center center;
   background-size: cover;
   
 }
@@ -3503,7 +3503,7 @@ h6 {
   width: 148px;
   font-size: 14px;
   font-weight: 500;
-  border: 1px solid #2b2b2b;
+  /* border: 1px solid #2b2b2b; */
   line-height: 48px;
   border-radius: 3px;
   outline: none !important;
