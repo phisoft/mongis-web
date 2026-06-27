@@ -147,20 +147,10 @@ button:focus {
   font-weight: 700;
   margin-bottom: 16px;
   text-transform: none;
-  position: relative;
-  padding-bottom: 20px;
 }
 
-.main_title h2:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50px;
-  height: 3px;
-  background: #faba00;
-  border-radius: 2px;
+.main_title.sub_title {
+  margin-bottom: 30px;
 }
 
 .main_title p {
@@ -4369,9 +4359,9 @@ h6 {
 }
 
 .trust-card p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.7;
-  color: #777;
+  color: #555;
   margin-bottom: 0;
 }
 
@@ -4424,11 +4414,6 @@ h6 {
 .promise-section .main_title h2 {
   font-size: 36px;
   margin-bottom: 12px;
-}
-
-.promise-section .main_title h2:after {
-  left: 0;
-  transform: none;
 }
 
 .promise-values {

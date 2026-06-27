@@ -19,7 +19,7 @@
     navbarFixed();
 
     /* Scrollspy - highlight active nav item */
-    var sections = $('section[id]');
+    var sections = $('section[id], div[id^="services-"]');
     $(window).on('scroll', function() {
         var scrollPos = $(document).scrollTop() + 100;
         sections.each(function() {
