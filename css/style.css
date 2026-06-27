@@ -466,6 +466,7 @@ button:focus {
   margin-bottom: 60px;
 }
 
+.home_banner_area .banner_inner .banner_content h1,
 .home_banner_area .banner_inner .banner_content h2 {
   margin-top: 0px;
   font-size: 52px;
@@ -474,6 +475,7 @@ button:focus {
   line-height: 1.2;
   margin-bottom: 24px;
   text-transform: none;
+  color: #fff;
 }
 
 .home_banner_area .banner_inner .banner_content p {
@@ -4354,4 +4356,158 @@ h6 {
 .contact_form .form-control:focus {
   border-color: #faba00;
   box-shadow: 0 0 0 3px rgba(250, 186, 0, 0.1);
+}
+
+/* How It Works - Step Cards
+============================================================================================ */
+.how-it-works {
+  background: #fafbfc;
+}
+
+.step-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 36px 28px 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  transition: all 0.35s ease;
+  height: 100%;
+  overflow: hidden;
+}
+
+.step-card:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #faba00, #f5d000);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.step-card .step-number {
+  font-family: "Heebo", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fef5e0;
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  line-height: 1;
+}
+
+.step-card .step-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  background: #fef5e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  transition: all 0.3s ease;
+}
+
+.step-card .step-icon i {
+  font-size: 26px;
+  color: #faba00;
+  transition: all 0.3s ease;
+}
+
+.step-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 12px;
+}
+
+.step-card p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #777;
+  margin-bottom: 0;
+}
+
+.step-card:hover {
+  box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+  transform: translateY(-4px);
+}
+
+.step-card:hover:before {
+  transform: scaleX(1);
+}
+
+.step-card:hover .step-icon {
+  background: #faba00;
+}
+
+.step-card:hover .step-icon i {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .step-card .step-number {
+    font-size: 40px;
+    top: 8px;
+    right: 16px;
+  }
+}
+
+/* Why Choose Us - Trust Cards
+============================================================================================ */
+.why-us {
+  background: #fff;
+}
+
+.trust-card {
+  text-align: center;
+  padding: 32px 20px;
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+.trust-card .trust-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #fef5e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  transition: all 0.3s ease;
+}
+
+.trust-card .trust-icon i {
+  font-size: 30px;
+  color: #faba00;
+  transition: all 0.3s ease;
+}
+
+.trust-card h4 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 10px;
+}
+
+.trust-card p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #777;
+  margin-bottom: 0;
+}
+
+.trust-card:hover .trust-icon {
+  background: #faba00;
+  transform: translateY(-4px);
+}
+
+.trust-card:hover .trust-icon i {
+  color: #fff;
 }

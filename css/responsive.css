@@ -26,10 +26,12 @@
 		padding: 100px 0px;
 	}
 
+	.home_banner_area .banner_inner .banner_content h1 br,
 	.home_banner_area .banner_inner .banner_content h2 br {
 		display: none;
 	}
 
+	.home_banner_area .banner_inner .banner_content h1,
 	.home_banner_area .banner_inner .banner_content h2 {
 		font-size: 36px;
 		line-height: 1.25;
@@ -495,4 +497,120 @@
 	.feature_item {
 		padding: 40px 20px 40px 20px;
 	}
+}
+
+/* ===== Mobile Fixes for New Sections ===== */
+
+/* How It Works - Step cards mobile */
+@media (max-width:767px) {
+  .step-card {
+    padding: 28px 20px 24px;
+  }
+  .step-card .step-number {
+    font-size: 36px;
+    top: 6px;
+    right: 14px;
+  }
+  .step-card .step-icon {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 16px;
+  }
+  .step-card .step-icon i {
+    font-size: 22px;
+  }
+}
+
+/* Trust cards mobile */
+@media (max-width:767px) {
+  .trust-card {
+    padding: 24px 16px;
+  }
+  .trust-card .trust-icon {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 16px;
+  }
+  .trust-card .trust-icon i {
+    font-size: 24px;
+  }
+}
+
+/* Service cards mobile */
+@media (max-width:575px) {
+  .feature_item {
+    padding: 24px 20px;
+    margin-bottom: 20px;
+  }
+  .feature_item .icon-circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+  }
+  .feature_item .icon-circle i {
+    font-size: 18px;
+  }
+  .feature_item h4 {
+    font-size: 15px;
+  }
+  .feature_item p {
+    font-size: 13px;
+  }
+  .main_title.sub_title {
+    margin-bottom: 20px;
+  }
+  .main_title.sub_title h4 {
+    font-size: 16px;
+  }
+}
+
+/* About section text on mobile */
+@media (max-width:575px) {
+  .desc h5 {
+    font-size: 15px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+/* Our Promise section on mobile */
+@media (max-width:767px) {
+  .about_area .work-text {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  .about_area .work-text h1 {
+    font-size: 28px !important;
+  }
+  .about_area .work-text p.display-5 {
+    font-size: 16px !important;
+  }
+}
+
+/* CTA section mobile */
+@media (max-width:575px) {
+  .impress_area .impress_inner h2 {
+    font-size: 24px;
+  }
+  .impress_area .impress_inner p {
+    font-size: 14px;
+  }
+}
+
+/* Contact section mobile */
+@media (max-width:575px) {
+  .contact_area .main_title h2 {
+    font-size: 25px;
+  }
+}
+
+/* Navbar logo fix - proper white logo on mobile */
+@media (max-width:991px) {
+  .header_area .navbar .navbar-brand img:first-child {
+    display: inline-block;
+  }
+  .header_area .navbar .navbar-brand img+img {
+    display: none;
+  }
 }
