@@ -446,7 +446,7 @@ button:focus {
 .home_banner_area {
   z-index: 1;
   min-height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.45)), url(../img/banner/civil-black.jpg) no-repeat scroll center center;
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.45)), url(../img/house1.jpg) no-repeat scroll center center;
   background-size: cover;
 }
 
@@ -3682,8 +3682,8 @@ h6 {
   background: #fff;
   border: none;
   border-radius: 16px;
-  padding: 36px 28px 30px;
-  margin-bottom: 36px;
+  padding: 40px 32px 36px;
+  margin-bottom: 30px;
   transition: all 0.35s ease;
   height: 100%;
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
@@ -3715,29 +3715,29 @@ h6 {
   margin-bottom: 22px;
   flex-shrink: 0;
   transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(250, 186, 0, 0.2);
 }
 
 .feature_item .icon-circle i {
   font-size: 22px;
-  color: #faba00;
+  color: #e5a800;
   transition: all 0.3s ease;
 }
 
 .feature_item h4 {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600;
   color: #1a1a2e;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   text-transform: none;
   transition: color 0.3s ease;
-  letter-spacing: -0.2px;
 }
 
 .feature_item p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.7;
-  color: #777;
+  color: #555;
 }
 
 .feature_item:hover {
@@ -3939,57 +3939,6 @@ h6 {
 /* End Contact Us Area css
 ============================================================================================ */
 
-/* Projects Area css
-============================================================================================ */
-.projects_item {
-  position: relative;
-  overflow: hidden;
-
-}
-
-.projects_item img {
-  width: 100%;
-  height: 100%;
-}
-
-.projects_item .hover {
-  position: absolute;
-  left: 0px;
-  bottom: -100%;
-  background: #faba00;
-  width: 100%;
-  padding: 36px;
-  transition: all 400ms ease;
-}
-
-.projects_item .hover h4 {
-  color: #222222;
-  text-transform: uppercase;
-  font-size: 18px;
-}
-
-.projects_item .hover p {
-  color: #222222;
-  max-width: 570px;
-  margin-bottom: 0px;
-}
-
-.projects_item:hover .hover {
-  bottom: 0px;
-}
-
-.wd_18 {
-  flex: 0 0 18.23%;
-  max-width: 18.23%;
-}
-
-.wd_44 {
-  flex: 0 0 45.31%;
-  max-width: 45.31%;
-}
-
-/* End Projects Area css
-============================================================================================ */
 /* Portfolio Details Area css
 ============================================================================================ */
 .portfolio_details_inner .row {
@@ -4080,143 +4029,64 @@ h6 {
 ============================================================================================ */
 .footer_area {
   background: #1a1a2e;
-  padding: 40px 0;
-}
-
-.f_title {
-  margin-bottom: 35px;
-}
-
-.f_title h3 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: "Heebo", sans-serif;
-  margin-bottom: 0px;
-  text-transform: uppercase;
-}
-
-.ab_widget p {
-  font-size: 14px;
-  line-height: 24px;
-  font-family: "Roboto", sans-serif;
-  color: #777777;
-  margin-bottom: 30px;
-}
-
-.ab_widget p a {
-  color: #faba00;
-}
-
-.ab_widget p+p {
-  margin-bottom: 0px;
-}
-
-.news_widget {
-  padding-left: 15px;
-}
-
-.news_widget p {
-  font-size: 14px;
-  line-height: 24px;
-  font-family: "Roboto", sans-serif;
-  color: #777777;
-  margin-bottom: 15px;
-}
-
-.news_widget .input-group input {
-  height: 40px;
-  background: #fff;
-  border-radius: 0px;
-  width: 80%;
-  border: none;
-  padding: 0px 15px;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: #cccccc;
-  outline: none;
-  box-shadow: none;
-}
-
-.news_widget .input-group input.placeholder {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: #cccccc;
-}
-
-.news_widget .input-group input:-moz-placeholder {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: #cccccc;
-}
-
-.news_widget .input-group input::-moz-placeholder {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: #cccccc;
-}
-
-.news_widget .input-group input::-webkit-input-placeholder {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: #cccccc;
-}
-
-.news_widget .input-group .sub-btn {
-  border-radius: 0px;
-  background: #faba00;
-  outline: none !important;
-  box-shadow: none !important;
-  padding: 0px;
-  width: 42px;
-  cursor: pointer;
+  padding: 60px 0 30px;
   color: #fff;
 }
 
-.social_widget p {
+.footer-heading {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.footer-tagline {
+  color: rgba(255,255,255,0.6);
   font-size: 14px;
-  line-height: 24px;
-  font-family: "Roboto", sans-serif;
-  color: #777777;
-  margin-bottom: 10px;
+  line-height: 1.6;
+  margin-bottom: 0;
 }
 
-.social_widget .list li {
-  margin-right: 17px;
-  display: inline-block;
-}
-
-.social_widget .list li a {
-  color: #cccccc;
+.footer-contact {
+  color: rgba(255,255,255,0.6);
   font-size: 14px;
-  transition: all 300ms linear 0s;
+  line-height: 1.7;
 }
 
-.social_widget .list li:last-child {
-  margin-right: 0px;
-}
-
-.social_widget .list li:hover a {
+.footer-contact i {
   color: #faba00;
-}
-
-.copy_right_text {
+  width: 18px;
   text-align: center;
-  margin-top: 60px;
 }
 
-.copy_right_text p a {
+.footer-contact a {
+  color: rgba(255,255,255,0.6);
+  transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+  color: #faba00;
+  text-decoration: none;
+}
+
+.footer-divider {
+  border-color: rgba(255,255,255,0.1);
+  margin: 30px 0 20px;
+}
+
+.icn {
+  padding: 8px;
+  font-size: 22px;
+  color: rgba(255,255,255,0.6);
+  transition: color 0.3s ease;
+}
+
+.icn:hover {
   color: #faba00;
 }
 
-.icn{
-  padding: 8px;
-  font-size: 30px;
-  color: white;
+.footer-social-links a:hover .icn {
+  color: #faba00;
 }
 
 /* End Footer Area css
@@ -4361,7 +4231,8 @@ h6 {
 /* How It Works - Step Cards
 ============================================================================================ */
 .how-it-works {
-  background: #fafbfc;
+  background: #f0f2f5;
+  padding: 100px 0;
 }
 
 .step-card {
@@ -4371,7 +4242,7 @@ h6 {
   margin-bottom: 30px;
   text-align: center;
   position: relative;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
   transition: all 0.35s ease;
   height: 100%;
   overflow: hidden;
@@ -4392,11 +4263,11 @@ h6 {
 
 .step-card .step-number {
   font-family: "Heebo", sans-serif;
-  font-size: 48px;
+  font-size: 52px;
   font-weight: 700;
-  color: #fef5e0;
+  color: #fef0c8;
   position: absolute;
-  top: 12px;
+  top: 10px;
   right: 20px;
   line-height: 1;
 }
@@ -4405,12 +4276,13 @@ h6 {
   width: 64px;
   height: 64px;
   border-radius: 16px;
-  background: #fef5e0;
+  background: linear-gradient(135deg, #fef5e0, #fef0c8);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 20px;
   transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(250, 186, 0, 0.15);
 }
 
 .step-card .step-icon i {
@@ -4421,20 +4293,20 @@ h6 {
 
 .step-card h4 {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   color: #1a1a2e;
   margin-bottom: 12px;
 }
 
 .step-card p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.7;
-  color: #777;
+  color: #555;
   margin-bottom: 0;
 }
 
 .step-card:hover {
-  box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.1);
   transform: translateY(-4px);
 }
 
@@ -4510,4 +4382,245 @@ h6 {
 
 .trust-card:hover .trust-icon i {
   color: #fff;
+}
+
+/* Projects Showcase - Full-width background
+============================================================================================ */
+.projects_showcase {
+  background: url(../img/home2.jpg) no-repeat scroll center center;
+  background-size: cover;
+  min-height: 500px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .projects_showcase {
+    min-height: 300px;
+  }
+}
+
+/* Our Promise Section
+============================================================================================ */
+.promise-section {
+  background: #fafbfc;
+  padding: 0;
+}
+
+.promise-content {
+  padding: 80px 60px;
+}
+
+@media (min-width: 1200px) {
+  .promise-content {
+    padding: 100px 80px;
+  }
+}
+
+.promise-section .main_title {
+  text-align: left;
+  margin-bottom: 36px;
+}
+
+.promise-section .main_title h2 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.promise-section .main_title h2:after {
+  left: 0;
+  transform: none;
+}
+
+.promise-values {
+  margin-top: 12px;
+}
+
+.promise-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.promise-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: #fef5e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.promise-icon i {
+  font-size: 20px;
+  color: #faba00;
+  transition: all 0.3s ease;
+}
+
+.promise-item:hover .promise-icon {
+  background: #faba00;
+}
+
+.promise-item:hover .promise-icon i {
+  color: #fff;
+}
+
+.promise-item h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 4px;
+}
+
+.promise-item p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #777;
+  margin-bottom: 0;
+}
+
+.promise-image {
+  height: 100%;
+  min-height: 400px;
+}
+
+.promise-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .promise-content {
+    padding: 50px 24px;
+  }
+  .promise-image {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 575px) {
+  .promise-content {
+    padding: 40px 16px;
+  }
+  .promise-item {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .promise-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+  }
+  .promise-icon i {
+    font-size: 18px;
+  }
+  .promise-item h5 {
+    font-size: 15px;
+  }
+  .promise-item p {
+    font-size: 13px;
+  }
+}
+
+/* Contact WhatsApp CTA
+============================================================================================ */
+.contact-cta {
+  background: #fafbfc;
+  padding: 100px 0;
+}
+
+.whatsapp-cta-btn {
+  display: inline-block;
+  background: #25D366;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-cta-btn i {
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.whatsapp-cta-btn:hover {
+  background: #20b858;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-sub {
+  font-size: 15px;
+  color: #777;
+}
+
+.whatsapp-sub a {
+  color: #1a1a2e;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.whatsapp-sub a:hover {
+  color: #faba00;
+}
+
+@media (max-width: 575px) {
+  .contact-cta {
+    padding: 60px 0;
+  }
+  .whatsapp-cta-btn {
+    font-size: 16px;
+    padding: 14px 28px;
+  }
+}
+
+/* Services Dropdown */
+.header_area .navbar .nav .nav-item.submenu .dropdown-menu {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+  padding: 8px 0;
+  min-width: 220px;
+  background: #fff;
+}
+
+.header_area .navbar .nav .nav-item.submenu .dropdown-menu .nav-link {
+  font-size: 14px;
+  color: #555;
+  padding: 10px 20px;
+  line-height: 1.4;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.header_area .navbar .nav .nav-item.submenu .dropdown-menu .nav-link:hover {
+  background: #fef5e0;
+  color: #1a1a2e;
+}
+
+.header_area.navbar_fixed .navbar .nav .nav-item.submenu .dropdown-menu .nav-link {
+  color: #555;
+}
+
+@media (max-width: 991px) {
+  .header_area .navbar .nav .nav-item.submenu .dropdown-menu {
+    box-shadow: none;
+    border-radius: 0;
+    background: transparent;
+    padding-left: 16px;
+  }
+  .header_area .navbar .nav .nav-item.submenu .dropdown-menu .nav-link {
+    color: #555;
+  }
 }
