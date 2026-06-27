@@ -9,8 +9,8 @@ Table of Content:
 05/ banner
 07/ about
 08/ features
-09/ works   
-16/ contact 
+09/ works
+16/ contact
 17/ footer
 
 =====================================================================*/
@@ -18,7 +18,7 @@ Table of Content:
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Roboto:300,400,500,700");
+/* (loaded via <link> in HTML with preconnect + display=swap) */
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -428,7 +428,7 @@ button:focus {
   z-index: 1;
   background: url(../img/banner/civil-black.jpg) no-repeat scroll center center;
   background-size: cover;
-  
+
 }
 
 .home_banner_area .banner_inner {
@@ -3514,7 +3514,7 @@ h6 {
 }
 
 .banner_btn:hover {
-  background-color: #84827c; 
+  background-color: #84827c;
   color: #fff;
 }
 
@@ -3610,7 +3610,7 @@ h6 {
 ============================================================================================ */
 .furniture_area {
   background: #f9f9ff;
-  
+
 }
 
 .furniture_inner {
@@ -4165,6 +4165,37 @@ h6 {
 
 /* End Footer Area css
 ============================================================================================ */
-/*---------------------------------------------------- */
 
-/*# sourceMappingURL=style.css.map */
+/*----------------------------------------------------*/
+/*  Animations (replaces full animate.css)
+/*----------------------------------------------------*/
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+/*---------------------------------------------------- */
