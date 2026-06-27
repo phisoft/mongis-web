@@ -18,4 +18,30 @@
     }
     navbarFixed();
 
+    /* Scrollspy - highlight active nav item */
+    var sections = $('section[id]');
+    $(window).on('scroll', function() {
+        var scrollPos = $(document).scrollTop() + 100;
+        sections.each(function() {
+            var top = $(this).offset().top;
+            var bottom = top + $(this).outerHeight();
+            var id = $(this).attr('id');
+            if (scrollPos >= top && scrollPos < bottom) {
+                $('.menu_nav .nav-item').removeClass('active');
+                $('.menu_nav .nav-item a[href="#' + id + '"]').parent().addClass('active');
+            }
+        });
+    });
+
+    /* Smooth scroll for anchor links */
+    $('.menu_nav a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+        var target = $(this.hash);
+        if (target.length) {
+            $('html, body').animate({
+                scrollTop: target.offset().top - 70
+            }, 600);
+        }
+    });
+
 })(jQuery)
