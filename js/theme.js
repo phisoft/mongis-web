@@ -44,4 +44,29 @@
         }
     });
 
+    /* Back to Top Button */
+    var $backToTop = $('#backToTop');
+    $(window).on('scroll', function() {
+        if ($(this).scrollTop() > 500) {
+            $backToTop.addClass('visible');
+        } else {
+            $backToTop.removeClass('visible');
+        }
+    });
+    $backToTop.on('click', function() {
+        $('html, body').animate({ scrollTop: 0 }, 500);
+    });
+
+    /* Navbar dropdown accessibility */
+    $('.dropdown-toggle').on('click', function() {
+        var $this = $(this);
+        var isExpanded = $this.attr('aria-expanded') === 'true';
+        $this.attr('aria-expanded', !isExpanded);
+    });
+
+    /* Close mobile menu on link click */
+    $('.menu_nav .nav-link').on('click', function() {
+        $('.navbar-collapse').collapse('hide');
+    });
+
 })(jQuery)

@@ -605,12 +605,10 @@
   }
 }
 
-/* Navbar logo fix - proper white logo on mobile */
-@media (max-width:991px) {
-  .header_area .navbar .navbar-brand img:first-child {
-    display: inline-block;
-  }
-  .header_area .navbar .navbar-brand img+img {
-    display: none;
+@media (max-width: 575px) {
+  .feature_inner .col-lg-4,
+  .feature_inner .col-md-6 {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
